@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureEventHubs", "AzureEventHubs\AzureEventHubs.csproj", "{B385799B-9978-41EC-B080-E4EEBA31D40A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "AnomalyDetector\Producer\Producer.csproj", "{55E06319-2441-4810-8FB4-3DD294D50EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoDRClient", "GeoDRClient\GeoDRClient\GeoDRClient.csproj", "{E22462B7-DB8D-4EE2-ACB0-F3619018D47A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleEphReceiver", "Microsoft.Azure.EventHubs\SampleEphReceiver\SampleEphReceiver.csproj", "{CAB090FC-943B-425E-994F-DF238FE36F45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleSender", "Microsoft.Azure.EventHubs\SampleSender\SampleSender.csproj", "{B89EBA87-D16C-4071-BC67-162365401DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubsMSIDemoWebApp", "MSI\EventHubsMSIDemoWebApp\EventHubsMSIDemoWebApp\EventHubsMSIDemoWebApp.csproj", "{476F98B4-05BF-42B6-B0B4-E50CD5B71635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubsSenderReceiverRbac", "Rbac\EventHubsSenderReceiverRbac\EventHubsSenderReceiverRbac.csproj", "{1485E9E2-11C3-4601-929D-04618277EB9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B385799B-9978-41EC-B080-E4EEBA31D40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B385799B-9978-41EC-B080-E4EEBA31D40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B385799B-9978-41EC-B080-E4EEBA31D40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B385799B-9978-41EC-B080-E4EEBA31D40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E06319-2441-4810-8FB4-3DD294D50EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E06319-2441-4810-8FB4-3DD294D50EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E06319-2441-4810-8FB4-3DD294D50EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E06319-2441-4810-8FB4-3DD294D50EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22462B7-DB8D-4EE2-ACB0-F3619018D47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22462B7-DB8D-4EE2-ACB0-F3619018D47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22462B7-DB8D-4EE2-ACB0-F3619018D47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22462B7-DB8D-4EE2-ACB0-F3619018D47A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB090FC-943B-425E-994F-DF238FE36F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB090FC-943B-425E-994F-DF238FE36F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB090FC-943B-425E-994F-DF238FE36F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB090FC-943B-425E-994F-DF238FE36F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89EBA87-D16C-4071-BC67-162365401DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89EBA87-D16C-4071-BC67-162365401DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89EBA87-D16C-4071-BC67-162365401DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89EBA87-D16C-4071-BC67-162365401DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{476F98B4-05BF-42B6-B0B4-E50CD5B71635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476F98B4-05BF-42B6-B0B4-E50CD5B71635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476F98B4-05BF-42B6-B0B4-E50CD5B71635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476F98B4-05BF-42B6-B0B4-E50CD5B71635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1485E9E2-11C3-4601-929D-04618277EB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1485E9E2-11C3-4601-929D-04618277EB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1485E9E2-11C3-4601-929D-04618277EB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1485E9E2-11C3-4601-929D-04618277EB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83B6B24F-2706-4F31-A901-2245BA026077}
+	EndGlobalSection
+EndGlobal
